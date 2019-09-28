@@ -48,8 +48,6 @@ const App = () => {
     }
   }
 
-  console.log(page);
-
   return (
     <Div className="App">
       <h1 className="Header">React Wars</h1>
@@ -62,6 +60,7 @@ const App = () => {
               key={people.indexOf(person)}
               name={person.name}
               birth_year={person.birth_year}
+              eye_color={person.eye_color}
             />
           );
         })}

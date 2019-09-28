@@ -7,7 +7,6 @@ const Div = styled.div`
     opacity: 0.75;
     width: 40%;
     margin: 1% 4% 1% 4%;
-    height: 100px;
 `
 
 export default function PersonCard(props) {
@@ -15,6 +14,7 @@ export default function PersonCard(props) {
         <Div>
             <h3>{props.name}</h3>
             <p>Birth Year: {props.birth_year}</p>
+            <p>Eye Color: {props.eye_color}</p>
         </Div>
     );
 }
